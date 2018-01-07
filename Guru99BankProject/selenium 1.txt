@@ -1,0 +1,133 @@
+what is selenium
+history of selenium
+selenium ide features
+selenium rc
+selenium webdriver advantages and disadvantages
+Detail difference selenium webdriver ide and selenium rc
+ 
+
+what is selenium
+
+selenium is a suite(types) of tools to automate webbrowser
+selenium is open source tools mainly used for functional and regression testing
+selenium supports various operating systems like windows,linux,macintosh
+selenium supports various programmming languages like python,ruby,pearl and java
+selenium supports various browsers ie,google chrome,opera,firefox,htmlunit headless drivers
+note :selenium ide supports firefox browsers 
+
+
+
+history of selenium
+ selenium is first came into life in 2004 major updated 2006 selenium wedriver was launched it was launched by google,
+in 2008 whole selenium team decide to mearge selenium rc and selenium webdriver called as selenium 2.0
+
+selenium 1
+selenium ide+ selenium rc+ seleniumgrid
+
+selenium 2
+selenium ide+ selenium rc+selenium webdriver+ seleniumgrid
+
+
+seleniu ide features
+
+ide means integrate development enviroment
+
+create test cases and test suite ( using record and play back option)
+execute test cases
+edit test cases
+debug test cases
+enchane test cases
+export test cases to other format default format was .html and export test cases for execution
+
+drawbacks of selenium ide
+
+It supports firefox browser only
+It doesnot data driven testing
+It is not suitple for complex test case design
+No object repository concept ( no centralized maintance of object or element)
+It does not upport programming language feature to enchane test cases
+
+
+selenium rc (outdated tool) it was not important now days 
+
+
+
+
+Selenium webdriver
+
+It is programming interface to create and execute test case  
+
+selenium ide has ide but doesnot have any programming interface
+
+qtp it both ide(menu options) as well programming interface 
+
+selenium webdriver supports various programming environment to write programs
+java
+perl
+ruby
+php
+c#
+using element locators/object locators/properties and webdriver methods we create and execute test case
+
+seleniu supports various browsers to create and execute test cases
+
+selenium supports various operating systems
+
+windows
+linux
+mactinosh
+Browser driver varies from one browser to another
+
+selenium wedriver
+
+
+qtp support only windows
+
+Drawbacks of selenium webdriver
+
+no centralized maintance of objects
+
+It doesnt generate  detailed test reports
+
+
+Selenium Grid
+selenium grid is used to execute tests across multiple browser ,operating environments and machine in parrelopera
+htmlunit
+
+
+
+interview point of view
+
+feature                 selenium ide             selenium rc               selenium webdriver
+
+browser compatibility   mozilla	                  Ie,chrome,firefox        Ie,chrome,firefox,htmlunit
+
+Record and playback     yes                       no                        no
+
+Server requirement    no                        yes                         no
+
+   
+Architecture        javascript based framework  same as ide               uses the browser native compatabilitffor automatio
+              
+Object oriented      not                       semi object oriented tool   purely object oriented tool
+
+Dynamic finders      ide doesnt explictly
+                     provide dynamic finder     same as ide                 support
+(for locating 
+webelements on 
+web page)     
+        
+option        
+ 
+
+iphone andriod
+testing                 no                    no                           yes
+                                                                           AndriodDriver,iPhoneDriver
+
+speed             it is veryfast as it     slower than webdriver           webdriver communicates direecltl
+                                           it doesnot directly 
+                                            communicating to browser
+                was firefox plugin
+               it directlly communicates
+               to the browser
+ 
